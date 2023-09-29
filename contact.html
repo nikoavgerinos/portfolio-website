@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <title>Nikolaos Avgerinos | Contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+  </head>
+  <body>
+    <header class="page-header" id="nav-homepage">
+      <a href="index.html">
+        <img
+          src="img/logo.svg"
+          alt="Logo"
+          width="80"
+          class="page-header__item header-logo"
+        />
+      </a>
+
+      <div class="nav-right">
+        <p class="nav-item" role="presentation">
+          <a role="menuitem" href="index.html" class="menuitem">Home</a>
+        </p>
+        <p class="nav-item" role="presentation">
+          <a
+            href="about.html"
+            role="menuitem"
+            class="menuitem"
+            aria-label="About me"
+            >About</a
+          >
+        </p>
+        <p class="nav-item" role="presentation">
+          <a role="menuitem" href="work.html" class="menuitem">Work</a>
+        </p>
+        <p class="nav-item" role="presentation">
+          <a role="menuitem" href="contact.html" class="menuitem active"
+            >Contact</a
+          >
+        </p>
+      </div>
+    </header>
+    <main class="main-contact" id="main">
+      <div class="contact-title">
+        <h1>Contact</h1>
+      </div>
+      <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left"></div>
+              <div class="app-contact">
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> Nikolaos Avgerinos,
+                  Kantstrasse 93, 10627 Berlin
+                </p>
+                <p>
+                  <i class="fas fa-phone-alt"></i>
+                  <a href="tel:+491744411510" aria-label="telephone number"
+                    >+49 174 4411 510</a
+                  >
+                </p>
+                <p>
+                  <i class="fab fa-skype"></i>
+                  <a href="skype:live:.cid.be33d1f8dc6b865f?chat">Skype</a>
+                </p>
+                <p>
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:avgerinos.niko@gmail.com"
+                    >avgerinos.niko@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="screen-body-item">
+              <form action="submit_form.php" method="POST">
+                <div class="app-form-group">
+                  <label for="name">Name</label>
+                  <input
+                    class="app-form-control"
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div class="app-form-group">
+                  <label for="email">Email</label>
+                  <input
+                    class="app-form-control"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+                <div class="app-form-group message">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="app-form-control"
+                    id="message"
+                    name="message"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="app-form-group buttons">
+                  <button class="button">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p class="find-me-on">Find me on:</p>
+        <div class="social-media">
+          <a href="https://github.com/nikoavgerinos" target="_blank">
+            <img
+              src="img/github_icon.svg"
+              alt="GitHub logo"
+              class="footer-icon"
+          /></a>
+          <a href="https://twitter.com/NikoAvgerinos" target="_blank">
+            <img
+              src="img/twitter_icon.svg"
+              alt="Twitter logo"
+              class="footer-icon"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/nikolaos-avgerinos/"
+            target="_blank"
+          >
+            <img
+              src="img/linkedin_icon.svg"
+              alt="LinkedIn Logo"
+              class="footer-icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/tota11y.js"></script>
+  </body>
+</html>
